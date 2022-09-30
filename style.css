@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main {
+  border: 2px solid fuchsia;
+  width: 40%;
+  height: 20%;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 5rem;
+  font-weight: 600;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgb(240, 234, 234) 0%,
+    rgba(86, 9, 121, 1) 45%,
+    rgba(255, 0, 159, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
